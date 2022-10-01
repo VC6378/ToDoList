@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Combo&family=Pacifico&family=Poppins:wght@200;300;400&display=swap');
+
+body{
+    /* border: 2px solid red; */
+    background-color: rgb(241, 241, 161);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 125%;
+}
+
+.container{
+    /* border: 2px solid red; */
+    padding: 24px;
+    width: 100%;
+    height: auto;
+    /* min-height: 550px; */
+    min-height: 55vh;
+    background-color: white;
+    border-radius: 24px;
+    background-image: radial-gradient(rgb(184, 175, 175) 10%, transparent 11%);
+    background-size: 24px 24px;
+    box-shadow: 5px 5px 8px rgb(165, 165, 165);
+}
+
+.heading{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.heading h1{
+    transform: rotate(3deg);
+    background-color: rgb(246, 238, 133);
+    border-radius: 2px 12px 23px 12px ;
+    padding: 12px;
+    font-size: 34px;
+}
+
+.form input{
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 0.7rem;
+    border: 0;
+    border-bottom: dashed 4px rgb(246, 238, 133);
+    font-family: 'Architects Daughter', cursive;
+    width: 75%;
+    height: 67%;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 6px;
+    /* margin-top: 23px; */
+    background-color: rgb(246, 238, 133);
+}
+
+li{
+    text-align: left;
+    padding: 0.5rem;
+}
+
+
+@media only screen and (max-width : 1000px){
+    
+}
